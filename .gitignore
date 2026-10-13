@@ -1,0 +1,19 @@
+# Archivos de entorno y configuraciones sensibles
+.env
+*.env
+
+# Carpetas de compilación y salida de .NET (ignora bin y obj en cualquier profundidad)
+[Bb]in/
+[Oo]bj/
+
+# Configuración local de Visual Studio
+.vs/
+.vscode/
+
+# Configuración de herramientas y paquetes
+.NETCoreApp,Version=*/
+project.lock.json
+project.assets.json
+*.user
+*.userosscache
+*.sln.docstates
